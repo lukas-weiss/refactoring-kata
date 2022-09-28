@@ -1,0 +1,11 @@
+extends:
+   - "airbnb-base"
+   - "prettier"
+
+plugins:
+   - "import"
+rules:
+   "import/extensions":
+      - 2
+      - js: always
+        mjs: always

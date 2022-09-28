@@ -1,0 +1,23 @@
+{
+  "name": "js-refactoring-kata",
+  "version": "1.0.0",
+  "description": "A refactoring kata in JavaScript",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "lint": "eslint src",
+    "execute": "node src/index.js"
+  },
+  "author": "Lukas Weiß",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^8.18.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.26.0",
+    "prettier": "^2.7.1"
+  },
+  "dependencies": {
+    "bunyan": "^1.8.15"
+  }
+}
